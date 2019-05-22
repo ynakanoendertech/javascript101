@@ -1,5 +1,5 @@
-var $i = jQuery('#input1');
-var $o = jQuery('#result');
+var $i = $('#input1');
+var $o = $('#result');
 
 function myFunc() {
   var result = $i.val() * 2;
