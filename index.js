@@ -1,8 +1,8 @@
 var $i = jQuery('#input1');
 var $o = jQuery('#result');
 
-function myFunc(event) {
-  var result = event.target.value * 2;
+function myFunc() {
+  var result = $i.val() * 2;
   
   $o.html(result);
 }
