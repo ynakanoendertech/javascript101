@@ -1,10 +1,10 @@
-var i = document.getElementById("input1");
-var o = document.getElementById("result");
+var $i = $('#input1');
+var $o = $('#result');
 
-function myFunc(event) {
-  var result = event.target.value * 2;
-
-  o.innerHTML = result;
+function myFunc() {
+  var result = $i.val() * 2;
+  
+  $o.html(result);
 }
 
-i.addEventListener("input", myFunc);
+$i.on("keyup", myFunc);
