@@ -1,6 +1,6 @@
-const i = document.getElementById("input1");
-const o = document.getElementById("result");
+const i = document.getElementById("input1")
+const o = document.getElementById("result")
 
-const myFunc = (event) => o.innerHTML = event.target.value * 2;
+const myFunc = (event) => o.innerHTML = event.target.value * 2
 
-i.addEventListener("input", myFunc);
+i.addEventListener("input", myFunc)
