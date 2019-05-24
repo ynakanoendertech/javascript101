@@ -1,5 +1,5 @@
-var i = document.getElementById("input1");
-var o = document.getElementById("result");
+const i = document.getElementById("input1");
+const o = document.getElementById("result");
 
 const myFunc = (event) => o.innerHTML = event.target.value * 2;
 
